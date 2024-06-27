@@ -3,6 +3,7 @@ Imports System.Configuration
 Module Module1
 
     Sub Main()
+        'Make a change
         GetIncomingSMSGateway()
         SendMessages(ConfigurationManager.AppSettings("GetMessagesProc"), "UpdateMessageQue_status")
     End Sub
